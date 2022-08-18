@@ -1,5 +1,7 @@
 body {
-  font-family: sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: rgb(221,160,221);
+  background: linear-gradient(90deg, rgba(221,160,221,1) 35%, rgba(240,128,128,1) 70%);
 }
 
 #main_content {
@@ -9,18 +11,47 @@ body {
 
 header {
   text-align: center;
+  color: white;
 }
 
 .team {
   width: 50%;
   height: 200px;
   float: left;
+  text-align: center;
+  margin: 0.75rem 0;
 }
 
 .team1 {
+  font-weight: bold;
+  font-size: 1.5rem;
   background-color: lightcoral;
+  color: rgb(189, 2, 2);
 }
 
 .team2 {
+  font-weight: bold;
+  font-size: 1.5rem;
   background-color: plum;
+  color: rgb(172, 7, 172);
+}
+
+.score-button {
+  cursor: pointer;
+  background-color: rgb(211, 252, 150);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1rem;
+  padding: 0.4rem;
+  border: 0.15rem solid  rgb(188, 246, 101);
+  border-radius: 0.4rem;
+}
+
+.score-button:hover {
+  background-color: rgb(188, 246, 101);
+}
+
+footer {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
 }
